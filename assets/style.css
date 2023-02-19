@@ -268,6 +268,19 @@ body{
     margin-top:16px;
   }
 
+  .footer-links{
+    position: relative;
+    color: #FFF;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height:50px;
+    top: 60vh;
+    bottom:2px;
+    /* right:40px; */
+  }
+
 
   @media screen and (min-width: 330px) and (max-width:476px){
     body{
@@ -287,7 +300,7 @@ body{
     .container > h1 {
       font-size :30px;
       justify-content: center;
-      font-weight: 900s;
+      font-weight: 900;
       text-align: center;
     }
     .container-fluid {
@@ -296,6 +309,10 @@ body{
       flex-direction: column;
       margin-top: 25px;
     }    
+    .footer-links{
+      font-size: 15px;
+      color:#25aae1;
+    }
   }
   
   @media screen and (min-width:477px) and (max-width:820px){
@@ -327,6 +344,32 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    .footer-links{
+      font-size: 20px;
+      color :#25aae1
+    }
+    
+  }
+  @media screen and (min-width: 821px) and (max-width: 1148px){
+    body{
+      width: 100%;
+      height: auto;
+    }
+    .brand{
+      width: 85%;
+    }
+    .container{
+      height: auto;
+      width: 100%;    
+    }
+    .container-fluid{
+      align-items: center;
+      justify-content: center;
+    }
+    .footer-links{
+      color:#25aae1;
+      top: 300px;
     }
     
   }
